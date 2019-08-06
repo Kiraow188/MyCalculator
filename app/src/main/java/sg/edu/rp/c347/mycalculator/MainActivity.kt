@@ -28,6 +28,17 @@ class MainActivity : AppCompatActivity() {
             }
 
         }
+
+        button25.setOnClickListener {
+            var num = textView.text.toString()
+            if (num.toDouble() < 0){
+                num = num.substring(1)
+                Log.d("+- is equals to", num)
+            }else{
+                num = "-" + num
+            }
+            textView.text = num
+        }
     }
 
     fun btnOnClick(view: View){

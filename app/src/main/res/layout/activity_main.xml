@@ -34,12 +34,13 @@
                 android:layout_weight="1">
             <Button
                     android:id="@+id/button1"
-                    android:layout_span="2"
                     android:onClick="btnOnClick"
                     android:text="AC" />
             <Button
+                    android:id="@+id/button25"
+                    android:text="+/-" />
+            <Button
                     android:id="@+id/button20"
-                    android:onClick="btnOnClick"
                     android:text="%" />
             <Button
                     android:id="@+id/button2"
